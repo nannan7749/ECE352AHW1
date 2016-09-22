@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Thu Sep 22 00:16:26 2016
+Analysis & Synthesis Status : Successful - Thu Sep 22 01:54:05 2016
 Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 Revision Name : ECE352_Base
-Top-level Entity Name : fa4
+Top-level Entity Name : top_level
 Family : Cyclone IV E
 Total logic elements : 10
     Total combinational functions : 10
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 14
+Total pins : 44
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

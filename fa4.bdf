@@ -24,7 +24,7 @@ agreement for further details.
 	(input)
 	(rect 16 80 184 96)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "A[3..0]" (rect 5 0 63 14)(font "Arial" ))
+	(text "A[3..0]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 16 120 184 136)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "B[3..0]" (rect 5 0 63 14)(font "Arial" ))
+	(text "B[3..0]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -56,7 +56,7 @@ agreement for further details.
 	(input)
 	(rect 16 160 184 176)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "Cin" (rect 5 0 30 14)(font "Arial" ))
+	(text "Cin" (rect 5 0 29 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -363,16 +363,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 160 232)
-	(pt 160 296)
-	(bus)
-)
-(connector
-	(pt 160 296)
-	(pt 336 296)
-	(bus)
-)
-(connector
 	(pt 456 280)
 	(pt 504 280)
 	(bus)
@@ -537,6 +527,26 @@ agreement for further details.
 	(pt 232 128)
 	(bus)
 )
+(connector
+	(pt 328 296)
+	(pt 328 288)
+	(bus)
+)
+(connector
+	(pt 336 296)
+	(pt 328 296)
+	(bus)
+)
+(connector
+	(pt 160 288)
+	(pt 328 288)
+	(bus)
+)
+(connector
+	(pt 160 232)
+	(pt 160 288)
+	(bus)
+)
 (junction (pt 264 160))
 (junction (pt 232 176))
 (junction (pt 264 264))
@@ -549,3 +559,16 @@ agreement for further details.
 (junction (pt 536 160))
 (junction (pt 536 368))
 (junction (pt 536 464))
+(title_block
+	(rect 656 336 1024 456)
+	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "UWMadison" (rect 56 2 204 23)(font "Arial" (font_size 12)))(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Thu Sep 22 01:56:04 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "Wangnan Zhong" (rect 56 2 270 23)(font "Arial" (font_size 12)))(border))
+	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.00" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
+	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
+	(section (rect 280 72 368 96)(text "REV" (rect 2 1 26 15)(font "Arial" ))(text "A" (rect 43 1 55 19)(font "Arial" (font_size 10)))(border))
+	(section (rect 240 96 310 120)(text "SHEET" (rect 2 0 43 14)(font "Arial" ))(text "1" (rect 55 5 67 23)(font "Arial" (font_size 10))))
+	(section (rect 0 0 368 24)(text "TITLE" (rect 2 0 43 14)(font "Arial" ))(text "4 bit adder" (rect 56 2 237 23)(font "Arial" (font_size 12)))(border))
+	(drawing
+	)
+)
