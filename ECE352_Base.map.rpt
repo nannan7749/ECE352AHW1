@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ECE352_Base
-Thu Sep 22 02:18:56 2016
+Mon Sep 26 00:47:12 2016
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 22 02:18:56 2016       ;
+; Analysis & Synthesis Status        ; Successful - Mon Sep 26 00:47:12 2016       ;
 ; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                      ; ECE352_Base                                 ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -255,7 +255,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -265,7 +265,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Thu Sep 22 02:18:45 2016
+    Info: Processing started: Mon Sep 26 00:46:56 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ECE352_Base -c ECE352_Base
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file top_level.bdf
@@ -308,9 +308,9 @@ Info (21057): Implemented 54 device resources after synthesis - the final resour
     Info (21059): Implemented 26 output pins
     Info (21061): Implemented 10 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
-    Info: Peak virtual memory: 848 megabytes
-    Info: Processing ended: Thu Sep 22 02:18:56 2016
-    Info: Elapsed time: 00:00:11
+    Info: Peak virtual memory: 846 megabytes
+    Info: Processing ended: Mon Sep 26 00:47:12 2016
+    Info: Elapsed time: 00:00:16
     Info: Total CPU time (on all processors): 00:00:22
 
 
